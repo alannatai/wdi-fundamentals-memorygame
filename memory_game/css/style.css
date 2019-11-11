@@ -53,6 +53,14 @@ h2 {
     text-transform: uppercase;
 }
 
+#score {
+    margin: 20px 0 0 0;
+}
+
+#score-num {
+    color: #F15B31;
+}
+
 p {
     font-family: "Droid Serif", serif;
     line-height: 26px;
@@ -61,6 +69,45 @@ p {
 
 img {
     margin: 40px 8px;
+}
+
+#game-board {
+    position: relative;
+}
+
+#cover {
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    z-index: 98;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 400px;
+}
+
+#outcome-message {
+    color: #F15B31;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 99;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 500px;
+}
+
+#reset {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background: grey;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 30px 5px 30px;
 }
 
 footer {
