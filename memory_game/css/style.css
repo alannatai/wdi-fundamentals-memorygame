@@ -75,18 +75,6 @@ img {
     position: relative;
 }
 
-#cover {
-    height: 300px;
-    width: 1000px;
-    position: absolute;
-    z-index: 98;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 400px;
-}
-
 #outcome-message {
     color: #F15B31;
     background: rgba(255, 255, 255, 0.8);
